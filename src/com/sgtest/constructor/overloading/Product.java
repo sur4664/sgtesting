@@ -1,9 +1,11 @@
 package com.sgtest.constructor.overloading;
-class prd {
+class prd
+{
     String item;
     int quantity;
     int price;
-     prd(String item, int quantity, int price) {
+     prd(String item, int quantity, int price)
+     {
          System.out.println("product :" + item);
          System.out.println("Quantity :" + quantity);
          System.out.println("Price :" + price);
@@ -15,7 +17,8 @@ class prd {
 
     }
 
-public class Product {
+public class Product
+{
     public static void main(String[]args){
         prd p1 =new prd("soap",5,100);
         prd p2 =new prd("paste",150);

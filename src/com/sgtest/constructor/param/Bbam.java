@@ -16,7 +16,7 @@ public class Bbam {
 
     }
 
-    void display() {
+     void display() {
         System.out.println(" in method");
         System.out.println("shop" + shop);
         System.out.println("purchase" + purchase);

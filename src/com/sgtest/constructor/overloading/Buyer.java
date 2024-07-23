@@ -1,11 +1,13 @@
 package com.sgtest.constructor.overloading;
 
- class Buy {
+ class Buy
+ {
 
     String item;
     int quantity;
     int price;
-    Buy(String item, int quantity, int price) {
+    Buy(String item, int quantity, int price)
+    {
         System.out.println("product :" + item);
         System.out.println("Quantity :" + quantity);
         System.out.println("Price :" + price);
@@ -17,7 +19,8 @@ package com.sgtest.constructor.overloading;
 
 }
 
-public class Buyer {
+public class Buyer
+{
     public static void main(String[]args){
         prd p1 =new prd("soap",5,100);
         prd p2 =new prd("paste",150);
