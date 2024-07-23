@@ -17,6 +17,6 @@ public class Aadhar
     public static void main(String[] args)
     {
         Name adn = new Name("kuroop", "h","menon");
-        Name ad = new Name(9990,04)
+        Name ad = new Name(9990,04);
     }
 }
